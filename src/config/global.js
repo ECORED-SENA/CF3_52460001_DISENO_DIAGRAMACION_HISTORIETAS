@@ -1,17 +1,26 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Diseño de historietas',
+    descripcionCurso:
+      'Este componente formativo aborda la evolución de las técnicas de reproducción de imágenes en la creación de historietas, desde métodos manuales como la xilografía hasta la impresión digital. También describe el proceso de diagramación de una historieta, las técnicas de ilustración empleadas, y la presentación de proyectos mediante <em>artbooks</em>, incluyendo referencias bibliográficas y detalles de producción.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.png'),
       },
     ],
   },
@@ -31,27 +40,25 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Evolución técnica: reproducción de imágenes',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Relación con los modos de producción',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Técnicas',
+            hash: 't_1_2',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Modos de presentación de proyectos: <em>artbook</em>',
         desarrolloContenidos: true,
       },
     ],
@@ -102,31 +109,116 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Evolución técnica: reproducción de imágenes ',
+      referencia:
+        'MacroIDEA. (2021). ¿Quién invento el cómic? Origen, Evolución. [Archivo de video] Youtube.   ',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=wHdYO4Be0QI&ab_channel=MacroIDEA  ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Relación con los modos de producción ',
+      referencia:
+        'EchandoTrazos. (2022). Como imprimir tu cómic o manga / Dibujo a Catwoman The Batman. [Archivo de video] Youtube.   ',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=KF_8PywQhYs&ab_channel=EchandoTrazos  ',
+    },
+    {
+      tema: 'Técnicas ',
+      referencia:
+        'EchandoTrazos. (2022). El mejor estilógrafo para dibujar cómics / manga. [Archivo de video] Youtube. ',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=f2wBl0o_Rn8&ab_channel=EchandoTrazos  ',
+    },
+    {
+      tema: 'Técnicas ',
+      referencia:
+        'Acevedo, J. (2021).<em>Para hacer historietas:</em>(8 ed.). IEP Ediciones.  ',
+      tipo: 'Capítulo 4 ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/195887 ',
+    },
+    {
+      tema: 'Modos de presentación de proyectos: <em>artbook</em>',
+      referencia:
+        'EchandoTrazos. (2024). Te muestro el increíble LIBRO DE ARTE de la leyenda del cómic Arthur Adams con MARVEL, DC COMICS... [Archivo de video] Youtube. ',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=KBJPJw-E6BU&ab_channel=EchandoTrazos  ',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: '<em>Artbook</em>',
+      significado:
+        'libro de arte que incluye bocetos, guiones gráficos y otros elementos visuales de un proyecto. ',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Calcografía',
+      significado:
+        'grabado en bajo relieve sobre una plancha de metal, donde se impregna tinta para imprimir. ',
+    },
+    {
+      termino: 'Impresión digital',
+      significado:
+        'proceso que utiliza archivos digitales para imprimir imágenes mediante inyección de tinta. ',
+    },
+    {
+      termino: 'Lápiz quemado',
+      significado:
+        'método de dibujo con un lápiz grueso que permite obtener líneas oscuras y texturizadas. ',
+    },
+    {
+      termino: 'Litografía',
+      significado:
+        'proceso de impresión que utiliza la incompatibilidad entre la grasa y el agua para grabar. ',
+    },
+    {
+      termino: 'Pincelado',
+      significado:
+        'técnica que permite crear líneas y fondos claros en una ilustración. ',
+    },
+    {
+      termino: 'Rotulador calibrado',
+      significado:
+        'herramienta usada para entintar y escribir textos en los globos de las historietas. ',
+    },
+    {
+      termino: 'Serigrafía',
+      significado:
+        'técnica de impresión mediante una malla para transferir tinta a un soporte. ',
+    },
+    {
+      termino: '<em>Storyboard</em>',
+      significado:
+        'planificación gráfica que organiza el guion visual de una historia antes de la producción. ',
+    },
+    {
+      termino: 'Xilografía',
+      significado:
+        'técnica de grabado en madera utilizada para la impresión de imágenes en grandes tirajes. ',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia: 'Ecured. (Sin fecha). Serigrafía.',
+      link: 'https://www.ecured.cu/Serigraf%C3%ADa',
+    },
+    {
+      referencia:
+        'Gubern, R. (1972). El lenguaje de los cómics. Barcelona, Península. ',
+      link: '',
+    },
+    {
+      referencia:
+        'McCloud, S. (2005). Entender el cómic. El arte invisible. Bilbao, Astiberri. ',
+      link: '',
+    },
+    {
+      referencia:
+        'McCloud, S. (2007). Hacer cómics: secretos narrativos del cómic, el manga y la novela gráfica. Bilbao, Astiberri. ',
       link: '',
     },
   ],
@@ -165,7 +257,7 @@ export default {
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Luis Jesús Pérez Madariaga',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
