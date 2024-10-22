@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF3_52460001_DISENO_DIAGRAMACION_HISTORIETAS/](https://ecored-sena.github.io/CF3_52460001_DISENO_DIAGRAMACION_HISTORIETAS/)
 
 #
 
