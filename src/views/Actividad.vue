@@ -28,7 +28,11 @@ export default {
           opciones: [
             { id: 'a', texto: 'Impresión digital. ', esCorrecta: false },
             { id: 'b', texto: 'Xilografía. ', esCorrecta: true },
-            { id: 'c', texto: 'Litografía offset. ', esCorrecta: false },
+            {
+              id: 'c',
+              texto: 'Litografía <em>offset</em>. ',
+              esCorrecta: false,
+            },
             { id: 'd', texto: 'Serigrafía. ', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -57,7 +61,11 @@ export default {
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Impresión digital. ', esCorrecta: false },
-            { id: 'b', texto: 'Litografía offset. ', esCorrecta: true },
+            {
+              id: 'b',
+              texto: 'Litografía <em>offset</em>. ',
+              esCorrecta: true,
+            },
             { id: 'c', texto: 'Xilografía. ', esCorrecta: false },
             { id: 'd', texto: 'Serigrafía. ', esCorrecta: false },
           ],
@@ -82,7 +90,7 @@ export default {
         {
           id: 5,
           texto:
-            '¿Cuál de las siguientes afirmaciones es verdadera sobre el artbook? ',
+            '¿Cuál de las siguientes afirmaciones es verdadera sobre el <em>artbook</em>? ',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -99,7 +107,7 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Es un tipo de storyboard digital. ',
+              texto: 'Es un tipo de <em>storyboard</em> digital. ',
               esCorrecta: false,
             },
             {
@@ -135,7 +143,7 @@ export default {
           opciones: [
             { id: 'a', texto: 'Impresión. ', esCorrecta: false },
             { id: 'b', texto: 'Arte final. ', esCorrecta: false },
-            { id: 'c', texto: 'Storyboard. ', esCorrecta: true },
+            { id: 'c', texto: '<em>Storyboard</em>. ', esCorrecta: true },
             { id: 'd', texto: 'Colorear. ', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',

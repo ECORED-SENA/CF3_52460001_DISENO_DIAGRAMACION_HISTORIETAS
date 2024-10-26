@@ -7,7 +7,7 @@
     .row.justify-content-center.p-4(style="background-color:#F6F6F6;border-radius:20px;")
       .col-lg-10.mb-5
         figure(data-aos="zoom-in-up" data-aos-duration="1100")
-          img(src="@/assets/curso/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/sintesis.svg", alt="La síntesis  describe aspectos clave del diseño de historietas. Se divide en dos secciones principales: técnicas de reproducción de imágenes, que incluyen métodos como impresión digital, xilografía, calografía, lineografía, litografía y serigrafía; y modos de presentación de proyectos, donde se destacan el artbook y sus componentes, como storyboard, bocetos, guion e imágenes inéditas. ")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

@@ -133,14 +133,6 @@ export default {
         'https://www.youtube.com/watch?v=f2wBl0o_Rn8&ab_channel=EchandoTrazos  ',
     },
     {
-      tema: 'Técnicas ',
-      referencia:
-        'Acevedo, J. (2021).<em>Para hacer historietas:</em>(8 ed.). IEP Ediciones.  ',
-      tipo: 'Capítulo 4 ',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/195887 ',
-    },
-    {
       tema: 'Modos de presentación de proyectos: <em>artbook</em>',
       referencia:
         'EchandoTrazos. (2024). Te muestro el increíble LIBRO DE ARTE de la leyenda del cómic Arthur Adams con MARVEL, DC COMICS... [Archivo de video] Youtube. ',
@@ -242,8 +234,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Hernánn Mauricio Rodríguez',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de Diseño e Innovación Tecnológica Industrial - Regional Risaralda',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -252,8 +250,8 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Andrés Felipe Herrera Roldán',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
@@ -261,21 +259,11 @@ export default {
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
       ],
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
         {
           nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador y vinculador de recursos educativos digitales',
