@@ -111,7 +111,7 @@ export default {
     {
       tema: 'Evolución técnica: reproducción de imágenes ',
       referencia:
-        'MacroIDEA. (2021). ¿Quién invento el cómic? Origen, Evolución. [Archivo de video] Youtube.   ',
+        'MacroIDEA. (2021). ¿Quién invento el cómic? Origen, Evolución. [Archivo de video] YouTube.   ',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=wHdYO4Be0QI&ab_channel=MacroIDEA  ',
@@ -119,7 +119,7 @@ export default {
     {
       tema: 'Relación con los modos de producción ',
       referencia:
-        'EchandoTrazos. (2022). Como imprimir tu cómic o manga / Dibujo a Catwoman The Batman. [Archivo de video] Youtube.   ',
+        'EchandoTrazos. (2022). Como imprimir tu cómic o manga / Dibujo a Catwoman The Batman. [Archivo de video] YouTube.   ',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=KF_8PywQhYs&ab_channel=EchandoTrazos  ',
@@ -127,7 +127,7 @@ export default {
     {
       tema: 'Técnicas ',
       referencia:
-        'EchandoTrazos. (2022). El mejor estilógrafo para dibujar cómics / manga. [Archivo de video] Youtube. ',
+        'EchandoTrazos. (2022). El mejor estilógrafo para dibujar cómics / manga. [Archivo de video] YouTube. ',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=f2wBl0o_Rn8&ab_channel=EchandoTrazos  ',
@@ -135,7 +135,7 @@ export default {
     {
       tema: 'Modos de presentación de proyectos: <em>artbook</em>',
       referencia:
-        'EchandoTrazos. (2024). Te muestro el increíble LIBRO DE ARTE de la leyenda del cómic Arthur Adams con MARVEL, DC COMICS... [Archivo de video] Youtube. ',
+        'EchandoTrazos. (2024). Te muestro el increíble LIBRO DE ARTE de la leyenda del cómic Arthur Adams con MARVEL, DC COMICS... [Archivo de video] YouTube. ',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=KBJPJw-E6BU&ab_channel=EchandoTrazos  ',
@@ -234,7 +234,7 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Hernánn Mauricio Rodríguez',
+          nombre: 'Hernán Mauricio Rodríguez ',
           cargo: 'Experto temático',
           centro:
             'Centro de Diseño e Innovación Tecnológica Industrial - Regional Risaralda',
@@ -266,17 +266,17 @@ export default {
       autores: [
         {
           nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validador de recursos educativos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Margarita Marcela Medrano Gómez',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
